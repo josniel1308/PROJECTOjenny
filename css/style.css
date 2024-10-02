@@ -1,0 +1,70 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+
+.theme-menu {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.theme-options {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+
+.theme-button {
+    display: block;
+    margin: 5px 0;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #f0f0f0;
+}
+
+.theme-button:hover {
+    background-color: #16bdffe3;
+}
+
+
+nav {
+    background-color: #333;
+    color: #e35ff5cb;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+
